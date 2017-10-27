@@ -1,5 +1,6 @@
 var TelegramBot = require('node-telegram-bot-api');
-var token = 'bad_mother_fucker_bot';
+var token = '438623317:AAEWmtnG4s2Y5BPYmi12gqbzVpOZqbUP4Gw';
+var nameOfBot = 'AngryMotherFuckerBot';
 var bot = new TelegramBot(token, {polling: true});
 
 bot.on('message', function (msg) {
