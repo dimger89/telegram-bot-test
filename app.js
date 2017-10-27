@@ -10,6 +10,6 @@ bot.on('message', function (msg) {
     var chatId = msg.chat.id;
 
     console.log(msg);
-    bot.sendMessage((chatId, messages[count%(messages.length)], {caption: `I'm a ${token} bot!`});
+    bot.sendMessage((chatId, messages[count%(messages.length)], {caption: `I'm a great bot!`});
     count++;
 });
